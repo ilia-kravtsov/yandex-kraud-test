@@ -3,152 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Yandex-kraud-test</title>
   </head>
   <body class="page">
+    
     <header class="header">
       <div class="container">
-        <div class="logo-wrapper">
-          <div class="logo-wrapper__icons">
-            <img
-              class="logo-wrapper__icon"
-              src="./assets/images/horse.svg"
-              alt="horse-icon"
-            />
-            <img
-              class="logo-wrapper__icon"
-              src="./assets/images/horse.svg"
-              alt="horse-icon"
-            />
-            <img
-              class="logo-wrapper__icon"
-              src="./assets/images/horse.svg"
-              alt="horse-icon"
-            />
-            <img
-              class="logo-wrapper__icon"
-              src="./assets/images/horse.svg"
-              alt="horse-icon"
-            />
+        <div class="sub-container">
+          <div class="logo-wrapper">
+            <div class="logo-wrapper__icons">
+              <img src="./assets/images/logo.svg" alt="" />
+            </div>
           </div>
-          <h1 class="logo-wrapper__title">Клуб <br />четырех коней</h1>
-        </div>
-        <div class="header__left-side">
-          <h2 class="header__subtitle">
-            Превратите уездный город
-            <span class="header__subtitle-down-part"
-              >В столицу земного шара</span
-            >
-          </h2>
-          <p class="header__description">
-            Оплатите взнос на телеграммы для организации Международного
-            васюкинского турнира по шахматам
-          </p>
-          <div class="header__links-wrapper">
-            <a class="header__link-left" href="#">
-              <span class="header__link-left-text"
-                >Поддержать <br />
-                шахматную мысль</span
-              >
-            </a>
-            <a class="header__link-right" href="#">
-              <span class="header__link-right-text"
-                >Подробнее о <br />турнире</span
-              >
-            </a>
+          <div class="header__left-side">
+            <h1 class="header__title">
+              Превратите уездный город
+              <span class="header__title-down-part">В столицу земного шара</span>
+            </h1>
+            <p class="header__description">
+              Оплатите взнос на телеграммы для организации Международного
+              васюкинского турнира по шахматам
+            </p>
+            <div class="header__links-wrapper">
+              <a class="header__link-left" href="#main__first">
+                <span class="header__link-left-text"
+                  >Поддержать <br />
+                  шахматную мысль</span
+                >
+              </a>
+              <a class="header__link-right" href="#main__second">
+                <span class="header__link-right-text"
+                  >Подробнее о <br />турнире</span
+                >
+              </a>
+            </div>
+          </div>
+          <div class="header__right-side">
+            <img
+              class="header__right-side-img"
+              src="./assets/images/new/group_2.png"
+              alt="some town on a chess desk"
+            />
           </div>
         </div>
       </div>
-      <div class="header__right-side">
-        <img src="./assets/images/1922.png" alt="" />
-      </div>
-      <div class="running-line-list">
-        <div class="running-line-list-item">
-          Дело помощи утопающим — дело рук самих утопающих!
+      <div class="running-line">
+        <div class="running-line__list marquee">
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
         </div>
-        <div class="running-line-list-item">
-          Шахматы двигают вперед не только культуру, но и экономику!
-        </div>
-        <div class="running-line-list-item">
-          Лед тронулся, господа присяжные заседатели!
+        <div class="running-line__list marquee margin-left">
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
         </div>
       </div>
     </header>
 
     <main class="main">
       <div class="container">
-        <section class="main__first">
+        <section class="main__first" id="main__first">
           <h3 class="main__first-title">
             Чтобы поддержать Международный васюкинский турнир посетите лекцию
             на тему:
             <span class="accent-font">«Плодотворная дебютная идея»</span>
           </h3>
           <img
-            src="./assets/main__first-img.jpg"
+            class="main__first-img"
+            src="./assets/images/main__first-img.jpg"
+            width="394"
+            loading="lazy"
             alt="the group of the chess players arranges the chess pieces"
           />
         </section>
 
-        <section class="main__second">
+        <section class="main__second" id="main__second">
           <div class="main__second-img-wrapper">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img
+              src="assets/images/main-second-img.jpg"
+              class="main__second-img"
+              width="504"
+              height="560"
+              loading="lazy"
+              alt="a chess player trying to do his move, and also we can see ten thousand rubles, and a hand with a pawn and a chess figure horse"
+            />
           </div>
-          <h3 class="main__second-title">
-            и Сеанс
-            <span class="accent-font"
-              >одновременной игры в шахматы на 160 досках</span
-            >
-            гроссмейстера О. Бендера
-          </h3>
-          <table class="main__second-table">
-            <tr class="main__second-table-row">
-              <th class="main__second-table-row-head">Место проведения:</th>
-              <td class="main__second-table-row-data">Клуб «Картонажник»</td>
-            </tr>
-            <tr>
-              <th class="main__second-table-row-head">
-                Дата и время мероприятия:
-              </th>
-              <td class="main__second-table-row-data">
-                22 июня 1927 г. в 18:00
-              </td>
-            </tr>
-            <tr>
-              <th class="main__second-table-row-head">
-                Стоимость входных билетов:
-              </th>
-              <td class="main__second-table-row-data">20 коп.</td>
-            </tr>
-            <tr>
-              <th class="main__second-table-row-head">Плата за игру:</th>
-              <td class="main__second-table-row-data">50 коп.</td>
-            </tr>
-            <tr>
-              <th class="main__second-table-row-head">Взнос на телеграммы:</th>
-              <td class="main__second-table-row-data">
-                <span class="discount-price">100 руб.</span> 21 руб. 16 коп.
-              </td>
-            </tr>
-          </table>
-          <a class="main__second-link" href="#"
-            >По всем вопросам обращаться в администрацию к К. Михельсону</a
-          >
+          <div class="main__second-right-side">
+            <h3 class="main__second-title">
+              и Сеанс
+              <span class="accent-font"
+                >одновременной игры в шахматы на 160 досках</span
+              >
+              гроссмейстера О. Бендера
+            </h3>
+            <table class="main__second-table">
+              <tbody class="main__second-table-body">
+                <tr class="main__second-table-row">
+                  <th class="main__second-table-row-head">Место проведения:</th>
+                  <td class="main__second-table-row-data">Клуб «Картонажник»</td>
+                </tr>
+                <tr class="main__second-table-row">
+                  <th class="main__second-table-row-head">
+                    Дата и время мероприятия:
+                  </th>
+                  <td class="main__second-table-row-data">
+                    22 июня 1927 г. в 18:00
+                  </td>
+                </tr>
+                <tr class="main__second-table-row">
+                  <th class="main__second-table-row-head">
+                    Стоимость входных билетов:
+                  </th>
+                  <td class="main__second-table-row-data">20 коп.</td>
+                </tr>
+                <tr class="main__second-table-row">
+                  <th class="main__second-table-row-head">Плата за игру:</th>
+                  <td class="main__second-table-row-data">50 коп.</td>
+                </tr>
+                <tr class="main__second-table-row">
+                  <th class="main__second-table-row-head">
+                    Взнос на телеграммы:
+                  </th>
+                  <td class="main__second-table-row-data">
+                    <span class="discount-price">100 руб.</span> 21 руб. 16 коп.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <a class="main__second-link" href="#">По всем вопросам обращаться в администрацию к К. Михельсону</a>
+          </div>
         </section>
 
         <section class="main__third">
           <h3 class="main__third-title">
             Этапы преображения Васюков
-            <a class="main__third-title-link" href=""
+            <a class="main__third-title-link" href="#"
               >Будущие источники обогащения васюкинцев</a
             >
           </h3>
-          <ol class="main__third-list">
+          <ul class="main__third-list">
             <li class="main__third-list-item">
               <p class="main__third-list-item-content">
                 Строительство железнодорожной магистрали Москва-Васюки
@@ -183,103 +209,174 @@
               </p>
             </li>
             <li class="main__third-list-item">
-              <p class="main__third-list-item-content">
+              <p class="main__third-list-item-content --main__third-list-item-content-max-width">
                 Создание аэропорта «Большие Васюки» с регулярным отправлением
                 почтовых самолётов и дирижаблей во все концы света, включая
                 Лос-Анжелос и Мельбурн
               </p>
-              <img src="" alt="" />
+              <img
+                class="main__third-list-item-img"
+                src="./assets/images/plane.png"
+                loading="lazy"
+                alt="a vitage plane"
+              />
             </li>
-          </ol>
+          </г>
         </section>
 
-        <section class="main__fourth-swiper">
-          <h3 class="main__fourth-swiper-title">Участники турнира</h3>
-          <div class="main__fourth-swiper">
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">
-                Хозе-Рауль Капабланка
-              </h4>
-              <p class="main__fourth-swiper-item-position">
-                Чемпион мира по шахматам
-              </p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
-            </div>
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">Эммануил Ласкер</h4>
-              <p class="main__fourth-swiper-item-position">
-                Чемпион мира по шахматам
-              </p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
-            </div>
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">Александр Алехин</h4>
-              <p class="main__fourth-swiper-item-position">
-                Чемпион мира по шахматам
-              </p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
-            </div>
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">Арон Нимцович</h4>
-              <p class="main__fourth-swiper-item-position">
-                Чемпион мира по шахматам
-              </p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
-            </div>
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">Рихард Рети</h4>
-              <p class="main__fourth-swiper-item-position">
-                Чемпион мира по шахматам
-              </p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
-            </div>
-            <div class="main__fourth-swiper-item">
-              <img
-                class="main__fourth-swiper-item-ava"
-                src="./assets/main__fourth-swiper-item-ava.jpeg"
-                alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
-              />
-              <h4 class="main__fourth-swiper-item-title">Остап Бендер</h4>
-              <p class="main__fourth-swiper-item-position">Гроссмейстер</p>
-              <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+        <section class="main__fourth">
+          <h3 class="main__fourth-title">Участники турнира</h3>
+          <div class="main__fourth-nav">
+            <button class="main__fourth-nav-prev">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" fill="#313131" />
+                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2" stroke-linecap="square" />
+              </svg>
+            </button>
+            <div class="main__fourth-nav-pagination"></div>
+            <button class="main__fourth-nav-next">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" fill="#313131" />
+                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2" stroke-linecap="square" />
+              </svg>
+            </button>
+          </div>
+          <div class="main__fourth-swiper swiper">
+            <div class="main__fourth-swiper swiper-wrapper">
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">
+                  Хозе-Рауль Капабланка
+                </h4>
+                <p class="main__fourth-swiper-item-position">
+                  Чемпион мира по шахматам
+                </p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">Эммануил Ласкер</h4>
+                <p class="main__fourth-swiper-item-position">
+                  Чемпион мира по шахматам
+                </p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">Александр Алехин</h4>
+                <p class="main__fourth-swiper-item-position">
+                  Чемпион мира по шахматам
+                </p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">Арон Нимцович</h4>
+                <p class="main__fourth-swiper-item-position">
+                  Чемпион мира по шахматам
+                </p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">Рихард Рети</h4>
+                <p class="main__fourth-swiper-item-position">
+                  Чемпион мира по шахматам
+                </p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
+              <div class="main__fourth-swiper-item swiper-slide">
+                <img
+                  class="main__fourth-swiper-item-ava"
+                  width="320"
+                  loading="lazy"
+                  src="./assets/images/participant.png"
+                  alt="a paint of a chess player in the black-white style, he wears tuxedo, and we can see three chess pieces the kingm the queen and the chess officer"
+                />
+                <h4 class="main__fourth-swiper-item-title">Остап Бендер</h4>
+                <p class="main__fourth-swiper-item-position">Гроссмейстер</p>
+                <a class="main__fourth-swiper-item-link" href="#">Подробнее</a>
+              </div>
             </div>
           </div>
         </section>
+      </div>
+      <div class="running-line">
+        <div class="running-line__list marquee">
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+        </div>
+        <div class="running-line__list marquee margin-left">
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+          <div class="running-line__item">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </div>
+          <div class="running-line__item">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </div>
+          <div class="running-line__item">
+            Лед тронулся, господа присяжные заседатели!
+          </div>
+        </div>
       </div>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <ul class="running-line">
-          <li>Дело помощи утопающим — дело рук самих утопающих!</li>
-          <li>Шахматы двигают вперед не только культуру, но и экономику!</li>
-          <li>Лед тронулся, господа присяжные заседатели!</li>
-        </ul>
         <p class="footer-text">
           Все персонажи, события и цитаты являются вымышленными и не принадлежат
           создателям сайта. С подробностями можно познакомиться в главе XXXIV
@@ -287,6 +384,8 @@
         </p>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

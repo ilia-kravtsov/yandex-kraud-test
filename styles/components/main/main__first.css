@@ -1,0 +1,21 @@
+/* ____________________ main first */
+.main__first {
+  display: flex;
+  gap: 64px;
+  padding-top: 106.92px;
+}
+.main__first-title {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: var(--sub-font-family);
+  line-height: 135%;
+  text-transform: uppercase;
+  color: var(--font-color-2);
+  max-width: 764px;
+}
+.main__first-img {
+  border-radius: 50%;
+}
+.accent-font {
+  color: var(--accent-color);
+}

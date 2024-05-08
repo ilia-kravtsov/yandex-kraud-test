@@ -1,0 +1,102 @@
+/* ____________________ main second */
+.main__second {
+  margin-top: 16px;
+  display: flex;
+  gap: 17px;
+}
+.main__second-img-wrapper {
+  max-width: 609px;
+}
+.main__second-img {
+  width: 100%;
+  height: auto;
+}
+.main__second-title {
+  margin-top: 44px;
+  font-weight: 400;
+  font-family: var(--sub-font-family);
+  font-size: 36px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: var(--font-color-2);
+}
+.main__second-img {
+  max-width: 100%;
+}
+.main__second-right-side {
+  max-width: 704px;
+  display: flex;
+  flex-direction: column;
+}
+.main__second-table {
+  margin-top: 60px;
+  border-collapse: collapse;
+  max-height: 255px;
+  overflow-y: auto;
+}
+.main__second-table-body {
+  float: left;
+}
+.main__second-table-row {
+  border-bottom: 2px solid var(--border-table-color);
+}
+.main__second-table-row:last-child {
+  border-bottom: none;
+}
+.main__second-table-row-head {
+  border-right: 2px solid var(--border-table-color);
+  font-weight: 400;
+  font-size: 20px;
+  font-family: var(--main-font-family);
+  line-height: 120%;
+  color: var(--font-color-2);
+  text-align: left;
+  opacity: var(--opacity);
+  min-width: 306px;
+  padding-right: 16px;
+  padding: 16px 0;
+}
+.main__second-table-row:first-child .main__second-table-row-head {
+  padding-top: 0;
+}
+.main__second-table-row:last-child .main__second-table-row-head {
+  padding-bottom: 0;
+}
+.main__second-table-row-data {
+  padding: 16px 0;
+  padding-left: 16px;
+  width: 398px;
+  font-weight: 600;
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--font-color-2);
+}
+.main__second-table-row:first-child .main__second-table-row-data {
+  padding-top: 0;
+}
+.main__second-table-row:last-child .main__second-table-row-data {
+  padding-bottom: 0;
+}
+.discount-price {
+  display: inline-block;
+  position: relative;
+}
+.discount-price::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: -1px;
+  width: 81px;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+.main__second-link {
+  margin-top: 48px;
+  font-weight: 400;
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--link-color);
+  max-width: 704px;
+}

@@ -1,0 +1,100 @@
+/* ____________________ main fourth */
+.main__fourth {
+  margin: 200px 0 139px 0;
+  position: relative;
+}
+.main__fourth-title {
+  font-weight: 400;
+  font-size: 54px;
+  font-family: var(--sub-font-family);
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--font-color-2);
+}
+.main__fourth-nav {
+  width: 151px;
+  background-color: var(--background-color-2);
+  position: absolute;
+  font-family: var(--main-font-family);
+  top: 18px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.main__fourth-nav-prev svg {
+  transform: rotate(180deg);
+}
+.main__fourth-nav-prev,
+.main__fourth-nav-next {
+  background-color: transparent;
+}
+.main__fourth-nav-prev svg circle,
+.main__fourth-nav-next svg circle {
+  fill: var(--button-color-1);
+  transition: fill 0.4s ease;
+}
+.main__fourth-nav-prev:hover svg circle,
+.main__fourth-nav-next:hover svg circle {
+  fill: var(--accent-color-2);
+}
+.main__fourth-nav-prev.swiper-button-disabled svg circle,
+.main__fourth-nav-next.swiper-button-disabled svg circle {
+  fill: var(--disabled-color);
+}
+.main__fourth-nav-pagination .swiper-pagination-total {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: var(--opacity-2);
+}
+.main__fourth-nav-pagination .swiper-pagination-current {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--font-color-2);
+  opacity: 1;
+}
+.main__fourth-swiper {
+  margin-top: 60px;
+}
+.main__fourth-swiper-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main__fourth-swiper-item-title {
+  margin-top: 27px;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: var(--main-font-family);
+  line-height: 120%;
+  color: var(--font-color-2);
+}
+.main__fourth-swiper-item-position {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: var(--main-font-family);
+  line-height: 120%;
+  color: var(--font-color-2);
+  opacity: var(--opacity-2);
+}
+.main__fourth-swiper-item-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px;
+  max-width: 114px;
+  border: 1px solid var(--link-color);
+  border-radius: 62px;
+  color: var(--link-color);
+  font-weight: 500;
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  line-height: 120%;
+  transition: background-color 0.4s;
+}
+.main__fourth-swiper-item-link:hover {
+  background-color: var(--link-color);
+  color: var(--font-color-3);
+}

@@ -1,0 +1,18 @@
+/* ____________________ scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-color) var(--background-color);
+  scroll-behavior: smooth;
+}

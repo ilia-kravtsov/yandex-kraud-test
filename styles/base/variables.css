@@ -1,0 +1,17 @@
+:root {
+  --font-color-1: #595653;
+  --font-color-2: #313131;
+  --font-color-3: #ffffff;
+  --button-color-1: #1f1f1f;
+  --accent-color: #f54932;
+  --accent-color-2: #fbce51;
+  --link-color: #3057a2;
+  --background-color: #e9ded4;
+  --background-color-2: #ffffff;
+  --border-table-color: #d0d0d0;
+  --main-font-family: GolosText;
+  --sub-font-family: Merriweather;
+  --opacity: 0.7;
+  --opacity-2: 0.6;
+  --disabled-color: #d6d6d6;
+}

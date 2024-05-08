@@ -1,0 +1,94 @@
+/* header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 16px;
+  z-index: 1;
+  background-image: url("../../assets/images/background.png"), none;
+  background-color: var(--background-color);
+  background-blend-mode: color-burn;
+}
+.sub-container {
+  width: 100%;
+  position: relative;
+}
+.logo-wrapper {
+  display: flex;
+  gap: 6.35px;
+}
+.header__left-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+  max-width: 542px;
+}
+.header__title {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: var(--sub-font-family);
+  line-height: 110%;
+  text-transform: uppercase;
+  color: var(--font-color-2);
+}
+.header__title-down-part {
+  display: inline-block;
+  text-align: center;
+}
+.header__description {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--main-font-family);
+  line-height: 130%;
+  text-align: center;
+  color: var(--font-color-2);
+}
+.header__links-wrapper {
+  margin-top: 39px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 124px;
+}
+.header__link-left,
+.header__link-right {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 66px;
+  width: 263px;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s;
+}
+.header__link-left {
+  background-color: var(--button-color-1);
+  color: var(--font-color-3);
+}
+.header__link-right {
+  border: 2px solid var(--button-color-1);
+  color: var(--button-color-1);
+}
+.header__link-left:hover {
+  background-color: var(--accent-color-2);
+  color: var(--button-color-1);
+}
+.header__link-right:hover {
+  background-color: var(--button-color-1);
+  color: var(--font-color-3);
+}
+.header__link-left-text,
+.header__link-right-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  font-family: var(--main-font-family);
+  text-align: center;
+}
+.header__right-side {
+  position: absolute;
+  top: -18px;
+  left: -364px;
+  z-index: -1;
+}
